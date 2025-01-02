@@ -15,8 +15,10 @@ public:
     int damage;
     int ultimate_damage;
     int heal;
+    std::string elemental_class;
 
     Herodule(int Herodule_type, std::string player_name);
+    void commands();
     void earth_commands();
     void fire_commands();
     void water_commands();

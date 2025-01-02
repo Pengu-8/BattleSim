@@ -14,6 +14,7 @@ int main() {
     }
     Game game;
     game.herodule_selection();
+    game.start_game();
 
     return 0;
 }
