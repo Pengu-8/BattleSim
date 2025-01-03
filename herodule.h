@@ -12,6 +12,7 @@ public:
     int herodule_type;
     int health;
     int max_health;
+    int min_health;
     int damage;
     int ultimate_damage;
     int heal;

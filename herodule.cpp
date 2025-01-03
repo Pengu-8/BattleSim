@@ -4,7 +4,7 @@
 #include <iostream>
 #include "herodule.h"
 
-Herodule::Herodule(int Herodule_type, std::string player_name):health(5000),max_health(6500),damage(1720),ultimate_damage(2470),heal(590) {
+Herodule::Herodule(int Herodule_type, std::string player_name):health(5000),max_health(6500),min_health(0),damage(1520),ultimate_damage(2270),heal(590) {
     switch (Herodule_type) {
         case 1:
             std::cout << player_name << " has selected Earth"<< std::endl;
@@ -14,7 +14,7 @@ Herodule::Herodule(int Herodule_type, std::string player_name):health(5000),max_
         case 2:
             std::cout << player_name << " has selected Fire"<< std::endl;
             herodule_type = 2;
-            elemental_class = "Fire";
+            elemental_class = "Fire ";
             break;
         case 3:
             std::cout << player_name << " has selected Water"<< std::endl;

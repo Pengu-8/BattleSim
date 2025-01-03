@@ -13,8 +13,12 @@ public:
     std::vector<Herodule> bot_collection;
     int inputty;
     int bot_selection;
+    int bot_action;
+    bool defend;
+    float damage_multiplier;
     // Herodule playing_hero;
     // Herodule bot_hero;
+    Game();
     void herodule_selection();
     void start_game();
 };
